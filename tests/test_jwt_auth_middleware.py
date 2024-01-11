@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.testclient import TestClient
-from fastapi_auth_middleware import JwtAuthMiddleware
+from fastapi_auth_middlewares import JwtAuthMiddleware
 
 app = FastAPI()
 app.add_middleware(JwtAuthMiddleware, secret_key="secret_key", public_paths=["/public"])

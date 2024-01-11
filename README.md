@@ -22,7 +22,7 @@ Python 3.8
 <div class="termy">
 
 ```console
-$ pip install fastapi_auth_middleware
+$ pip install fastapi_auth_middlewares
 ```
 
 </div>
@@ -35,7 +35,7 @@ $ pip install fastapi_auth_middleware
 ```Python
 from fastapi import FastAPI, Request
 
-from fastapi_auth_middleware import JwtAuthMiddleware
+from fastapi_auth_middlewares import JwtAuthMiddleware
 
 app = FastAPI(
     title="Secured Project",
