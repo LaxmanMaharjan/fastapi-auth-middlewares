@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi_auth_middleware"
+version = "0.1.0"
+authors = [
+  { name="Laxman Maharjan", email="lxmnmrzn17@gmail.com" },
+]
+description = "A middleware for securing fastapi application."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+]
+dependencies = [
+    "fastapi>=0.75.0",
+    "PyJWT>=2.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/LaxmanMaharjan/fastapi-auth-middleware"
+Issues = "https://github.com/LaxmanMaharjan/fastapi-auth-middleware/issues"
+Repository = "https://github.com/LaxmanMaharjan/fastapi-auth-middleware" 
