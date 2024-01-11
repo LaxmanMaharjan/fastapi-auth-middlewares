@@ -1,6 +1,6 @@
-# FastAPI Auth Middleware
+# FastAPI Auth Middlewares
 
-FastAPI Auth Middlewawre is a middleware for securing FastAPI application. It provides a convenient way to secure your FastAPI routes and endpoints using jwt tokens.
+FastAPI Auth Middlewares is a package for securing FastAPI application. It provides a convenient way to secure your FastAPI routes and endpoints using jwt tokens.
 
 ## Features
 
